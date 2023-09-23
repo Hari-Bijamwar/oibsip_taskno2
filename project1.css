@@ -1,0 +1,131 @@
+*{
+    margin: 100;
+    padding:100;
+    overflow: hidden;
+    font-family:poppins;
+    box-sizing:border-box ;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+body{
+   height: 100vh;
+   width: 100vw;
+   background-color: bisque;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+}
+li{
+    list-style: none;
+    cursor: pointer;
+   
+}
+a{
+text-decoration: none;
+}
+button{
+    background-color: rgb(22, 109, 80);
+    color: white;
+    cursor: pointer;
+    padding: 4px 10px;
+    border: 1px solid white;
+    border-radius:5px ;
+    font-weight:600 ;
+    width: fit-content;
+}
+button:hover{
+    background-color:rgb(10, 153, 105);
+   color: black;
+   border: 1px solid black;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content:space-evenly;
+}
+li{
+    display: flex;
+
+}
+.logo{
+   height: 100px;
+   width: 100px;
+
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: centre;
+
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+.search-field{
+    display: flex;
+    gap: 30px;
+
+}
+input{    padding: 4px 10px;}
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 116px;
+    
+}
+.hero-section-left h1{
+    font-size: 40px;
+margin-bottom: 30px;
+    font-weight: 700;
+
+}
+.hero-section-left h1 span{
+color: rgb(23, 130, 95);
+font-weight: 900;
+font-size: 2.5rem;
+}
+.hero-section-left p span{
+    font-size: 25px;
+    color: rgb(23, 130, 95) ;
+}
+.hero-section-right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.hero-section-right-btns {
+    display: flex;
+    align-items: center;
+    gap: 30%;
+}
+.hero-section-right img{
+   height: 250px;
+   width: 200px;
+   border-radius: 50%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content:  space-around;
+
+
+}
+footer ul {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+}
+
+header nav ul li a{
+    color: green;
+
+}
